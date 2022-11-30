@@ -1,0 +1,775 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    width: 100vw;
+    border-bottom: 2px solid white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    color: white;
+    background-color: black;
+    padding: 0px 40px 0px 30px;
+}
+
+.links ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+} 
+
+a {
+    text-decoration: solid;
+    color: white;
+}
+
+/* End Of Navigation Bar */
+
+/* Home */
+#home {
+    height: 900px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#home .heading {
+    margin: 100px;  
+    margin-left: 50px;
+    margin-right: 0px;
+    color: white;
+    width: 1050px;
+    height: 745px;
+    font-size: 150px;
+}
+
+#home .heading:hover {
+    color: black;
+    transition: .5s;
+}
+
+#home img {
+    width: 734px;
+    height: 395px;
+    margin-top: 420px;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+/* End Of Home */
+
+/* Arrow */
+.arrow {
+    color: white;
+    background: black;
+    text-align: center;
+}
+/* End Of Arrow */
+
+/* About Us */
+#about-us {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-us img {
+    margin-top: 130px;
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+
+#about-us .content {
+    margin-top: 130px;
+    margin-right: 50px;
+}
+
+#about-us .content .content-heading {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+/* End Of About Us */
+
+/* Our Services */
+#know-more {
+    margin-left: 50px;
+}
+
+#know-more h1 {
+    padding-top: 75px;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+#know-more .services {
+    display: flex;
+    justify-content: space-between;   
+}
+
+#know-more .service1 {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+#know-more .service1:hover {
+    background: black;
+    color: white;
+    transition: 2s;
+}
+
+#know-more .service1 h2 {
+    padding-bottom: 15px;
+}
+
+#know-more .service2 {
+    border: 2px solid black;
+    margin: 0px 30px 0px 30px;
+    padding: 15px;
+}
+
+#know-more .service2:hover {
+    background: black;
+    color: white;
+    transition: 2s;
+}
+
+#know-more .service2 h2 {
+    padding-bottom: 15px;
+}
+
+#know-more .service3 {
+    border: 2px solid black;
+    border-right: none;
+    margin-right: 0px;
+    padding: 15px;  
+}
+
+#know-more .service3:hover {
+    background: black;
+    color: white;
+    transition: 2s;
+}
+
+#know-more .service3 h2 {
+    padding-bottom: 15px;
+}
+/* End Of Our Services */
+
+hr {
+    width: 80vw;
+    border: 5px solid black;
+    margin: 0px 100px 0px 100px;
+}
+
+/* Contact Us */
+#contact-us {
+    background-color: black;
+    height: 600px;
+    color: white;    
+}
+
+#contact-us .info {
+    font-size: 60px;
+    padding: 30px;
+    text-align: center;
+}
+
+#contact-us #fname {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    margin: 0px 150px 50px 146px;
+    padding: 10px 1000px 10px 10px;
+    text-align: left; 
+}
+
+#contact-us #lname {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    margin: 0px 150px 50px 146px;
+    padding: 10px 1000px 10px 10px;
+    text-align: left;     
+}
+
+#contact-us #email {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    margin: 0px 150px 50px 146px;
+    padding: 10px 1000px 10px 10px;
+    text-align: left; 
+}
+
+#contact-us #reason {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    margin: 0px 150px 30px 146px;
+    padding: 10px 1000px 10px 10px;
+    text-align: left; 
+}
+
+#contact-us button {
+    padding: 8px 40px 8px 40px;
+    margin-left: 146px;
+    cursor: pointer;
+}
+/* End Of Contact Us */
+
+/* Media Queries */
+/* max-width = 1200px */
+@media screen and (max-width:1200px) {        
+    #home {
+        height: 750px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #home .heading {
+        margin: 80px;  
+        margin-left: 40px;
+        width: 580px;
+        height: 700px;
+        font-size: 110px;
+        margin-right: 0px;
+    }
+    
+    #home img {
+        width: 450px;
+        height: 335px;
+        margin-top: 320px;
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+    
+    hr {
+        width: 80vw;
+        border: 5px solid black;
+        margin: 0px 100px 0px 100px;
+    }
+    
+    #contact-us #fname {
+        border: 1px solid white;
+        color: white;
+        background-color: black;
+        margin: 0px 150px 50px 146px;
+        padding: 10px 700px 10px 10px;
+    }
+    
+    #contact-us #lname {
+        border: 1px solid white;
+        color: white;
+        background-color: black;
+        margin: 0px 150px 50px 146px;
+        padding: 10px 700px 10px 10px;
+    }
+    
+    #contact-us #email {
+        border: 1px solid white;
+        color: white;
+        background-color: black;
+        margin: 0px 150px 50px 146px;
+        padding: 10px 700px 10px 10px;
+    }
+    
+    #contact-us #reason {
+        border: 1px solid white;
+        color: white;
+        background-color: black;
+        margin: 0px 150px 30px 146px;
+        padding: 10px 700px 10px 10px;
+    }
+    
+    #contact-us button {
+        padding: 8px 40px 8px 40px;
+        margin-left: 146px;
+        cursor: pointer;
+    }
+}
+
+/* max-width = 1100px */
+@media screen and (max-width:1100px) {
+    #home {
+        height: 750px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #home .heading {
+        margin: 80px;  
+        margin-left: 40px;
+        width: 580px;
+        height: 700px;
+        font-size: 110px;
+        margin-right: 0px;
+    }
+    
+    #home img {
+        width: 450px;
+        height: 335px;
+        margin-top: 320px;
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+    
+    hr {
+        width: 80vw;
+        border: 5px solid black;
+        margin: 0px 100px 0px 100px;
+    }
+
+    #contact-us #fname {
+        border: 1px solid white;
+        color: white;
+        background-color: black;
+        margin: 0px 150px 50px 146px;
+        padding: 10px 600px 10px 10px;
+    }
+    
+    #contact-us #lname {
+        border: 1px solid white;
+        color: white;
+        background-color: black;
+        margin: 0px 150px 50px 146px;
+        padding: 10px 600px 10px 10px;
+    }
+    
+    #contact-us #email {
+        border: 1px solid white;
+        color: white;
+        background-color: black;
+        margin: 0px 150px 50px 146px;
+        padding: 10px 600px 10px 10px;
+    }
+    
+    #contact-us #reason {
+        border: 1px solid white;
+        color: white;
+        background-color: black;
+        margin: 0px 150px 30px 146px;
+        padding: 10px 600px 10px 10px;
+    }
+    
+    #contact-us button {
+        padding: 8px 40px 8px 40px;
+        margin-left: 146px;
+        cursor: pointer;
+    }
+} 
+
+/* max-width = 1000px */
+@media screen and (max-width:1000px) {
+    #home {
+        height: 700px;
+    }
+    
+    #home .heading {
+        margin: 80px;  
+        margin-left: 30px;
+        width: 400px;
+        height: 700px;
+        font-size: 110px;
+        margin-right: 0px;
+    }
+    
+    #home img {
+        width: 350px;
+        height: 335px;
+        margin-top: 320px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    
+    hr {
+        width: 80vw;
+        border: 5px solid black;
+        margin: 0px 100px 0px 100px;
+    }
+
+    #contact-us #fname {
+        padding: 10px 450px 10px 10px;
+    }
+    
+    #contact-us #lname {
+        padding: 10px 450px 10px 10px;
+    }
+    
+    #contact-us #email {
+        padding: 10px 450px 10px 10px;
+    }
+    
+    #contact-us #reason {
+        padding: 10px 450px 10px 10px;
+    }
+}
+
+/* max-width = 850px */
+@media screen and (max-width: 850px) {
+    #home {
+        height: 600px;
+    }
+    
+    #home .heading {
+        margin: 80px;  
+        margin-left: 20px;
+        width: 240px;
+        height: 700px;
+        font-size: 90px;
+        margin-right: 0px;
+    }
+    
+    #home img {
+        width: 300px;
+        height: 250px;
+        margin-top: 300px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    
+    #about-us img {
+        margin-top: 130px;
+        margin-left: 30px;
+        margin-right: 30px; 
+    }
+    
+    #about-us .content {
+        margin-top: 130px;
+        margin-right: 40px;
+    }
+    
+    #about-us .content .content-heading {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    #know-more {
+        margin-left: 40px;
+    }
+    
+    #know-more h1 {
+        padding-top: 75px;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    #know-more .services {
+        display: flex;
+        justify-content: space-between;   
+    }
+    
+    #know-more .service1 {
+        border: 2px solid black;
+        padding: 15px;
+    }
+    
+    #know-more .service1 h2 {
+        padding-bottom: 15px;
+    }
+    
+    #know-more .service2 {
+        border: 2px solid black;
+        margin: 0px 30px 0px 30px;
+        padding: 15px;
+    }
+    
+    #know-more .service2 h2 {
+        padding-bottom: 15px;
+    }
+    
+    #know-more .service3 {
+        border: 2px solid black;
+        border-right: none;
+        margin-right: 0px;
+        padding: 15px;  
+    }
+    
+    #know-more .service3 h2 {
+        padding-bottom: 15px;
+    }
+
+    hr {
+        width: 80vw;
+        border: 5px solid black;
+        margin: 0px 100px 0px 100px;
+    }
+
+    #contact-us #fname {
+        padding: 10px 300px 10px 10px;
+    }
+    
+    #contact-us #lname {
+        padding: 10px 300px 10px 10px;
+    }
+    
+    #contact-us #email {
+        padding: 10px 300px 10px 10px;
+    }
+    
+    #contact-us #reason {
+        padding: 10px 300px 10px 10px;
+    }
+}
+
+/* max-width = 700px */
+@media screen and (max-width: 700px) {
+    #home {
+        height: 500px;
+    }
+    
+    #home .heading {
+        margin: 80px;  
+        margin-left: 20px;
+        width: 180px;
+        height: 600px;
+        font-size: 70px;
+        margin-right: 0px;
+    }
+    
+    #home img {
+        width: 250px;
+        height: 200px;
+        margin-top: 230px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    
+    #about-us img {
+        margin-top: 110px;
+        margin-left: 20px;
+        margin-right: 20px; 
+        width: 300px;
+    }
+    
+    #about-us .content {
+        margin-top: 110px;
+        margin-right: 20px;
+    }
+    
+    #about-us .content .content-heading {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    #know-more {
+        margin-left: 40px;
+    }
+    
+    #know-more h1 {
+        padding-top: 75px;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    #know-more .services {
+        display: flex;
+        justify-content: space-between;   
+    }
+    
+    #know-more .service1 {
+        border: 2px solid black;
+        padding: 15px;
+    }
+    
+    #know-more .service1 h2 {
+        padding-bottom: 15px;
+    }
+    
+    #know-more .service2 {
+        border: 2px solid black;
+        margin: 0px 30px 0px 30px;
+        padding: 15px;
+    }
+    
+    #know-more .service2 h2 {
+        padding-bottom: 15px;
+    }
+    
+    #know-more .service3 {
+        border: 2px solid black;
+        border-right: none;
+        margin-right: 0px;
+        padding: 15px;  
+    }
+    
+    #know-more .service3 h2 {
+        padding-bottom: 15px;
+    }
+
+    hr {
+        width: 70vw;
+        border: 5px solid black;
+        margin: 0px 100px 0px 100px;
+    }
+
+    #contact-us .info {
+        font-size: 40px;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #contact-us #fname {
+        text-align: left ;
+        margin: 0px 150px 30px 126px;
+        padding: 10px 220px 10px 10px;
+    }
+    
+    #contact-us #lname {
+        margin: 0px 150px 30px 126px;
+        padding: 10px 220px 10px 10px;
+    }
+    
+    #contact-us #email {
+        margin: 0px 150px 30px 126px;
+        padding: 10px 220px 10px 10px;
+    }
+    
+    #contact-us #reason {
+        margin: 0px 150px 30px 126px;
+        padding: 10px 220px 10px 10px;        
+    }
+
+    #contact-us button {
+        padding: 8px 40px 8px 40px;
+        margin-left: 126px;
+        cursor: pointer;
+    }
+}
+
+/* max-width = 600px */
+@media screen and (max-width: 600px) {
+    .nav {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .links ul {
+        gap: 20px;
+    }
+
+    #home {
+        height: 400px;
+    }
+    
+    #home .heading {
+        margin: 80px;  
+        margin-left: 15px;
+        width: 150px;
+        height: 650px;
+        font-size: 60px;
+        margin-right: 0px;
+    }
+    
+    #home img {
+        width: 200px;
+        height: 150px;
+        margin-top: 230px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    
+    #about-us img {
+        margin-top: 110px;
+        margin-left: 20px;
+        margin-right: 20px; 
+        width: 250px;
+    }
+    
+    #about-us .content {
+        margin-top: 110px;
+        margin-right: 20px;
+    }
+    
+    #about-us .content .content-heading {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    #know-more {
+        margin-left: 40px;
+    }
+    
+    #know-more h1 {
+        padding-top: 75px;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    #know-more .services {
+        display: flex;
+        justify-content: space-between;   
+    }
+    
+    #know-more .service1 {
+        border: 2px solid black;
+        padding: 15px;
+    }
+    
+    #know-more .service1 h2 {
+        padding-bottom: 15px;
+    }
+    
+    #know-more .service2 {
+        border: 2px solid black;
+        margin: 0px 30px 0px 30px;
+        padding: 15px;
+    }
+    
+    #know-more .service2 h2 {
+        padding-bottom: 15px;
+    }
+    
+    #know-more .service3 {
+        border: 2px solid black;
+        border-right: none;
+        margin-right: 0px;
+        padding: 15px;  
+    }
+    
+    #know-more .service3 h2 {
+        padding-bottom: 15px;
+    }
+
+    hr {
+        width: 80vw;
+        border: 5px solid black;
+        margin: 0px 50px 0px 50px;
+    }
+
+    #contact-us .info {
+        font-size: 40px;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #contact-us #fname {
+        margin: 0px 80px 30px 80px;
+        padding: 10px 180px 10px 10px;
+    }
+    
+    #contact-us #lname {
+        margin: 0px 80px 30px 80px;
+        padding: 10px 180px 10px 10px;
+    }
+    
+    #contact-us #email {
+        margin: 0px 80px 30px 80px;
+        padding: 10px 180px 10px 10px;
+    }
+    
+    #contact-us #reason {
+        margin: 0px 80px 30px 80px;
+        padding: 10px 180px 10px 10px;
+        
+    }
+
+    #contact-us button {
+        padding: 8px 40px 8px 40px;
+        margin-left: 80px;
+        cursor: pointer;
+    }
+}
